@@ -1,4 +1,4 @@
-function hp(character{ name, health }) {
+export default function hp(character{ name, health }) {
   const result;
   if (character.health > 50) {
     return result = healthy;

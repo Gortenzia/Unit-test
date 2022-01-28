@@ -1,4 +1,4 @@
-import function hp from '../basic';
+import hp from '../basic';
   
 
 test('Проверка здоровья персоонажа', () => {
