@@ -1,10 +1,8 @@
-export default function hp(character{ name, health }) {
-  const result;
-  if (character.health > 50) {
-    return result = healthy;
-  } else if (character.health < 50 && character.health > 15) {
-    return result = wounded;
-  } else if (character.health < 15) {
-    return result = critical;
+export default function heroes(health) {
+  if (health < 15) {
+    return 'critical';
+  } if (health < 50) {
+    return 'wounded';
   }
+  return 'healthy';
 }
